@@ -17,6 +17,8 @@ TagManager:
   - BluePortal
   - CamB
   - CamP
+  - ReloWall
+  - ReloPoint
   layers:
   - Default
   - TransparentFX
