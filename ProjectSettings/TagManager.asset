@@ -19,6 +19,7 @@ TagManager:
   - CamP
   - ReloWall
   - ReloPoint
+  - Enemy
   layers:
   - Default
   - TransparentFX

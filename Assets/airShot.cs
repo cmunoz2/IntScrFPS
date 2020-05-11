@@ -21,8 +21,8 @@ public class airShot : MonoBehaviour, IItem
 	[SerializeField]
 	private float interval = 0.1f;
 
-	[SerializeField]
-	private AudioClip shot;
+	//[SerializeField]
+	//private AudioClip shot;
 
 	private AudioSource aud;
 	private bool canFire = true;
@@ -47,7 +47,7 @@ public class airShot : MonoBehaviour, IItem
 			// randomize the audiosource pitch for variety.
 			aud.pitch = Random.Range(0.95f, 1.05f);
 			// play sound clip
-			aud.PlayOneShot(shot);
+			//aud.PlayOneShot(shot);
 			StartCoroutine(WaitToFire());
 		}
 	}

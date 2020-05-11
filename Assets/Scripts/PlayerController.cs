@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField]
+    private float health = 3f;
 
     [SerializeField]
     private IItem heldItem;
@@ -49,6 +51,19 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKey(KeyCode.E))
         {
             Pickup();
+        }
+        if (health == 0f)
+        {
+            Time.timeScale = 0;
+        }
+    }
+
+    void OnCollisionEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Ouch!");
+            health -= 1f;
         }
     }
 
