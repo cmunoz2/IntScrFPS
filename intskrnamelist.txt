@@ -1,0 +1,31 @@
+30 Weapon Names (LIST)
+1. Dark Stalker
+2. Titan
+3. Pincher
+4. Walker
+5. Darter
+6. Folc
+7. Walchein
+8. Fery
+9. Tuyon
+10. Gawin
+11. Aldous
+12. Doss
+13. Bikzoa
+14. Wemdirt
+15. Urely
+16. Naemur
+17. Naepu
+18. Goaziantoarth
+19. Uktak
+20. Vur
+21. Ovvaik
+22. Archon
+23. Azriel
+24. Mihr
+25. Peniel
+26. Nocturne
+27. Specter
+28. Silver
+29. Ember
+30. Skitter

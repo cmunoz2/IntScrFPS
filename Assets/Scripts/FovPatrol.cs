@@ -71,17 +71,7 @@ public class FovPatrol : MonoBehaviour {
 
 
 	void Update () {
-		/*
-			if(Playerisclose (5m)) {
-				Move To player
-			}
-			if(playerisfar (15m)) {
-				gotonextpoint();
-			}
-		*/
 
-		// Choose the next destination point when the agent gets
-		// close to the current one.
 		if (!agent.pathPending && agent.remainingDistance < 1f)
 			GotoNextPoint();
 	}
