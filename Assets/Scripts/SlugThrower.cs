@@ -49,7 +49,7 @@ public class SlugThrower : MonoBehaviour, IItem
 	}
 
 	public void AltUse() {
-		Debug.Log("Alt fire!");
+		Debug.Log("Alt fire!"); 
 	}
 
 	public void Pickup(Transform hand) {
